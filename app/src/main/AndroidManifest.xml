@@ -19,6 +19,9 @@
 
         <activity android:name=".NotificationHandler"
             android:label="@string/notification_activity"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
