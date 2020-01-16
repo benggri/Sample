@@ -8,7 +8,7 @@ import androidx.core.app.NotificationCompat
 
 class NotificationHandler(private val ctx : Context ) {
     companion object {
-        private const val CHANNEL_ID = "com.ran.todolist"
+        private const val CHANNEL_ID = "com.example.sample"
     }
 
     fun addNotification( conTitle:String, contText:String ) {
