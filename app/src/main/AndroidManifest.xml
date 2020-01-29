@@ -28,6 +28,11 @@
                 android:value=".MainActivity"/>
         </activity>
 
+        <activity
+            android:name=".ResultActivity"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+
     </application>
 
 </manifest>
